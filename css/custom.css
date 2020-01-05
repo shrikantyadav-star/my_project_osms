@@ -1,0 +1,81 @@
+/* Change Brand Name Font */
+.navbar-brand{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Change Navigation Menu Color */
+.navbar #myMenu .custom-nav .nav-item a {
+    color: #fff;
+}
+.navbar #myMenu .custom-nav .nav-item a:hover {
+    color: #f0aab1;
+}
+
+/* Make Header Image Responsive */
+.back-image{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    border-radius: 0px;
+    margin-top: 74px;
+}
+
+/* Image Header Sub-Title */
+.font-italic{
+    font-size: 24px;
+}
+
+/* Margin for Welcome to OSMS */
+.mainHeading{
+    margin-top: 50px;
+}
+
+/* registration form shadow  don't use bootstrap class that's why i am using custom css*/
+.shadow-lg {
+    box-shadow: 0 1rem 3rem 
+    rgba(0,0,0,.175) !important;
+}
+/* .p-4 {
+    padding: 1.5rem !important;
+} */
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem 
+    rgba(0,0,0,.075) !important;
+}
+.shadow {
+    box-shadow: 0 .5rem 1rem 
+    rgba(0,0,0,.15) !important;
+}
+
+a {
+    color: black;
+  }
+  
+  .active {
+    color: white;
+    background-color: #DC3545;
+  }
+  
+  a:hover {
+    color: #f26571;
+  }
+  
+  /* Change Footer Icon Link Color */
+  .fi-color {
+    color: #DC3545;
+  }
+  
+  fi-color:hover {
+    color: #E994A2;
+  }
+
+/* Media query */
+@media only  screen and (max-width: 600px){
+.myclass{
+    margin-top: 340px;
+    text-align: center;
+}
+}
